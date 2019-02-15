@@ -9,14 +9,11 @@ function btnEnviar() {
     $("#formulario").off();
     $("#formulario").submit(function (event) {
         //Aqui va el codigo
-        console.log("Entro");
-
-        
-       
+      
+        console.info("Se Ejecuto El Codigo")
         //previene la accion por defecto
         event.preventDefault();
-        
-        
+            
     });
 
 };
